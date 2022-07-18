@@ -1,0 +1,22 @@
+<ngb-carousel 
+[showNavigationArrows]="carsoleobj.showNavigationArrows" 
+[showNavigationIndicators]="carsoleobj.showNavigationIndicators"
+[keyboard]="carsoleobj.keyboard"
+[interval]="carsoleobj.interval"
+[pauseOnHover]="carsoleobj.pauseOnHover"
+[wrap]="true"
+[activeId]="'secondSlide'">
+  <ng-template ngbSlide  *ngFor="let slide of carsoleobj.slides;let i=index" >
+    <div class="picsum-img-wrapper">
+      <img [src]="slide.image">
+    </div>
+    <div class="carousel-caption">
+      <h3>{{carsoleobj.title}}</h3>
+      <p>{{slide.id}}</p>
+    </div>
+  </ng-template>
+
+</ngb-carousel> 
+<button mat-fab color="primary"  class="settings">
+  <mat-icon aria-hidden="false" aria-label="Example home icon">settings</mat-icon>
+</button>

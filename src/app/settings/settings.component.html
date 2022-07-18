@@ -1,0 +1,24 @@
+<h1 mat-dialog-title>Corsole Config</h1>
+<section class="demo-section">
+    <label class="demo-margin">Text-Appearance</label>
+    <mat-form-field class="demo-margin">
+      <input
+        matInput
+        placeholder="color"
+        [(ngModel)]="data.color"
+      />
+    </mat-form-field>
+  </section>
+  <section class="demo-section">
+    <label class="demo-margin">Interval</label>
+    <mat-form-field class="demo-margin">
+      <input
+        matInput
+        placeholder="Interval"
+        [(ngModel)]="data.interval"
+      />
+    </mat-form-field>
+  </section>
+<div mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="data">Ok</button>
+</div>
