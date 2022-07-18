@@ -43,6 +43,5 @@ ngb-carousel {
     bottom: 20px;
     left: auto;
     position: fixed;
-    z-index: 1;
     background-color: #3f51b5 !important;
 }
