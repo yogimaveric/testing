@@ -7,12 +7,12 @@
 [wrap]="true"
 [activeId]="'secondSlide'">
   <ng-template ngbSlide  *ngFor="let slide of carsoleobj.slides;let i=index" >
-    <div class="picsum-img-wrapper">
-      <img [src]="slide.image">
+    <div class="picsum-img-wrapper" id="slide" [style.background-color]="slide.colorcode">
+      <p id="pcontent">{{slide.title}}</p>
+   
     </div>
     <div class="carousel-caption">
-      <h3>{{carsoleobj.title}}</h3>
-      <p>{{slide.id}}</p>
+      {{slide.id}}
     </div>
   </ng-template>
 

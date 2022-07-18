@@ -3,11 +3,12 @@ ngb-carousel {
     margin: 50px auto;
    
 }
-ngb-carousel img {
+/* IMAGE styles */
+/* ngb-carousel img {
     width: 100%;
     outline: none;
     max-height: 300px;
-}
+} */
 ngb-carousel {
     width: inherit;
     height: inherit;
@@ -44,4 +45,15 @@ ngb-carousel {
     left: auto;
     position: fixed;
     background-color: #3f51b5 !important;
+}
+#slide{
+    min-height: 300px;
+}
+#pcontent{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 300;
+    position: relative;
+    top:100px;
+   
 }

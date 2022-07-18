@@ -13,25 +13,22 @@ export class AppComponent {
   ngOnInit(){
     this.carsoleobj={
       'slides': [
-        {'image': 'https://th.bing.com/th/id/OIP.vLlX7AeRMdITvlgjNtpihgAAAA?pid=ImgDet&w=178&h=176&c=7&dpr=1.5','id':1}, 
-        {'image': 'https://th.bing.com/th/id/OIP.A7PTBQHHEDpd-FrQDWzu2wHaGl?pid=ImgDet&w=178&h=158&c=7&dpr=1.5','id':2},
-        {'image': 'https://th.bing.com/th/id/OIP.Vz3ZCtvXUCGxPytwQnz9QwHaEK?pid=ImgDet&rs=1','id':3}, 
-        {'image': 'https://th.bing.com/th/id/OIP.K7GOeSD8ONtZSKjAwKhCawAAAA?pid=ImgDet&w=178&h=158&c=7&dpr=1.5','id':4}, 
-        {'image': 'https://th.bing.com/th/id/OIP.S9YBooXFcd4k-5AUnV46AwHaEo?pid=ImgDet&w=178&h=111&c=7&dpr=1.5','id':5},
-        {'image': 'https://th.bing.com/th/id/OIP.vLlX7AeRMdITvlgjNtpihgAAAA?pid=ImgDet&w=178&h=176&c=7&dpr=1.5','id':1}, 
-        {'image': 'https://th.bing.com/th/id/OIP.A7PTBQHHEDpd-FrQDWzu2wHaGl?pid=ImgDet&w=178&h=158&c=7&dpr=1.5','id':2},
-        {'image': 'https://th.bing.com/th/id/OIP.Vz3ZCtvXUCGxPytwQnz9QwHaEK?pid=ImgDet&rs=1','id':3}, 
-        {'image': 'https://th.bing.com/th/id/OIP.K7GOeSD8ONtZSKjAwKhCawAAAA?pid=ImgDet&w=178&h=158&c=7&dpr=1.5','id':4}, 
-        {'image': 'https://th.bing.com/th/id/OIP.S9YBooXFcd4k-5AUnV46AwHaEo?pid=ImgDet&w=178&h=111&c=7&dpr=1.5','id':5}
+        {'colorcode': 'red','id':1,'title':'abc'}, 
+        {'colorcode': 'green','id':2,'title':'Example Of Carsole'},
+        {'colorcode': 'blue','id':3,'title':'Example Of Carsole'}, 
+        {'colorcode': 'yellow','id':4,'title':'Example Of Carsole'}, 
+        {'colorcode': 'violet','id':5,'title':'Example Of Carsole'},
+        {'colorcode': 'orange','id':6,'title':'Example Of Carsole'}, 
+        {'colorcode': 'green','id':7,'title':'Example Of Carsole'},
+        {'colorcode': 'pink','id':8,'title':'Example Of Carsole'}
       ],
-      'title':'Example Of Carsole',
-      'subTitle':'Descrition of Carsole',
       'interval':5000,
       'showNavigationArrows':true,
       'showNavigationIndicators':true,
       'keyboard':true,
       'pauseOnHover':true
     }
+   
   }
 
   
